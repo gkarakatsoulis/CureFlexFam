@@ -1,7 +1,5 @@
 # This R script only optimizes the loglikelihood over the incidence and prevalence parts (glm and Weibull)
 
-# It actually compares the Mixture Cure model (gamma = 1)
-
 library(dplyr)
 
 myfile_wd = gsub('Rscripts', 'Simulated_Datasets/', getwd())
