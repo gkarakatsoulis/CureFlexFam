@@ -205,6 +205,3 @@ tmp %>%
   
   rstatix::get_summary_stats(Estimate)
 
-
-tmp2$Estimate2 = as.numeric(tmp2$Estimate2)
-tmp2 %>% group_by(Coef) %>% rstatix::get_summary_stats(Estimate2)
